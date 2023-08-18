@@ -10,6 +10,7 @@ const routes = [
   {
     path: '/',
     name: 'clubview',
+    redirect: '/club',
     component: ClubView,
     children: [
       {
